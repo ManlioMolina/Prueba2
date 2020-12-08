@@ -1,0 +1,80 @@
+body{
+	font-family: 'poppins-bold', sans-serif !important;
+	font-family: Segoe UI;
+	font-size: 15px;
+	color: #000;
+}
+
+h1{
+	text-transform: uppercase;
+}
+
+header{
+	background-color: transparent;
+	position: absolute;
+	width: 100%;
+	z-index: 9999999;
+	color: #000;
+}
+
+#slides{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+}
+
+#slides .carousel-caption{
+	display: grid;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	height: 100%;	
+}
+
+
+
+#slides .info{
+	position: absolute;
+	color: #fff;
+}
+
+#banners{
+	padding: 2%;
+}
+
+#Product{
+	padding: 3%;
+}
+
+#clients-footer{
+	padding: 3%;
+}
+
+footer{
+	padding: 30px;
+	background-color: #222222;
+	color: #6b7a90;
+}
+
+footer img{
+	position: absolute;
+	padding-left: 40%;
+	position: relative;
+}
+
+span.blanco{
+	color: #fff;
+}
+
+.btn-transparente{
+	background-color: transparent;
+	color: #29DB3E;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 10px 40px;
+	border: thick solid;
+	font-weight: 500;
+	border-radius: 25px;
+}
