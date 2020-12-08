@@ -18,11 +18,19 @@ header{
 }
 
 #slides{
+
+	background-image: url("../img/bg-sliders.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 20% 0;
+
+	/*color: #002e5b;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	color: #fff;
-	text-align: center;
+	text-align: center;*/
 }
 
 #slides .carousel-caption{
@@ -36,8 +44,11 @@ header{
 
 
 #slides .info{
-	position: absolute;
 	color: #fff;
+}
+
+#slides img{
+	width: 30%;
 }
 
 #banners{
